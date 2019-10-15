@@ -31,13 +31,13 @@ def contact(request):
        contact.save()
 
        #send mail
-       send_mail(
-           'Property Listing Inquiry',
-           'There has been an inquiry for ' + listing + '. Sign into the admin panel for more info',
-           'blvckowlshop@gmail.com',
-           [realtor_email, 'luis.rivera846@gmail.com'],
-           fail_silently=False,
-       )
+    #    send_mail(
+    #        'Property Listing Inquiry',
+    #        'There has been an inquiry for ' + listing + '. Sign into the admin panel for more info',
+    #        'blvckowlshop@gmail.com',
+    #        [realtor_email, 'luis.rivera846@gmail.com'],
+    #        fail_silently=False,
+    #    )
 
 
 
